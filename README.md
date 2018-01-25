@@ -13,7 +13,7 @@ p <- ggtree(x) + xlim(NA, 7) + ylim(NA, 6.2) +
     ggtitle("Y叔不想养蛙", subtitle="只想养你，毕竟养猪能致富")
 
 p <- p + theme(plot.title=element_text(family="STHeiti"), plot.subtitle=element_text(family="STHeiti"))
-ggsave(p, file="frog_ggtree.png", width=8.5, height=7.5)
+ggsave(p, file="ggtree_frog.png", width=8.5, height=7.5)
 ```
 
-![](frog_ggtree.png)
+![](ggtree_frog.png)
